@@ -1,0 +1,61 @@
+/*
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
+$font-family-base: 'Raleway', sans-serif;
+*/
+
+@import "variables";
+@import "bootstrap";
+@import "font-awesome";
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    opacity: 0.8;
+    & .navbar-actions {
+        text-transform: uppercase;
+        .glyphicon {
+        	padding-left: 1rem;
+        }
+    }
+}
+.hero {
+    padding-left: 0;
+    padding-right: 0;
+    .hero-image {
+        display: block;
+        background-image: url(//placehold.it/1200x700?text=hero);
+        background-repeat: none;
+        background-position: top left;
+         max-width: 100%;
+         height: 50rem;
+         position: relative;
+         div {
+             position: absolute;
+             top: 50%;
+             left: 10%;
+         }
+    }
+    p {
+        color: $component-active-color;
+        &.hero-title {
+            text-transform: uppercase;
+            font-size: 5rem;
+            line-height: 100%;
+        }
+    }
+}
+
+.panel {
+    border: 0;
+    box-shadow: none;
+}
+.panel-body {
+    padding: 0;
+}
+.panel-footer {
+    padding: 0;
+    background-color: #fff;
+    border-top: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
