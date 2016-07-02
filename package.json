@@ -1,0 +1,22 @@
+{
+  "name": "ifit-interview",
+  "version": "1.0.0",
+  "author": "Kevin Dougherty",
+  "description": "Interview for iFit",
+  "scripts": {
+    "start": "concurrent \"gulp watch\" \"npm run lite\" ",
+    "lite": "lite-server"
+  },
+  "devDependencies": {
+    "concurrently": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "lite-server": "^2.1.0"
+  },
+  "repository": {}
+}

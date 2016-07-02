@@ -1,0 +1,22 @@
+{
+  "name": "ifit",
+  "description": "interview-test",
+  "main": "",
+  "authors": [
+    "Kevin Dougherty"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
+    "font-awesome": "^4.6.3",
+    "jquery": "^2.0.0"
+  }
+}
